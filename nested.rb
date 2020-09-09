@@ -114,8 +114,6 @@ def changing_alan
 end
 
 def adding_to_dennis
-  # add "Assembly" to Dennis Ritchie's languages array
-  # return the entire updated hash
 
 	programmer_hash =
  		{
@@ -133,5 +131,7 @@ def adding_to_dennis
       }
     }
 		programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+		# add "Assembly" to Dennis Ritchie's languages array
 		programmer_hash
+		# return the entire updated hash
 end
